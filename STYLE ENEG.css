@@ -1,0 +1,90 @@
+.judul {
+  color: #f9f9f9;
+}
+body {
+  background: url(uhuy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* STYLE BUAT HEADER N NAVBAR */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  /* STYLE BUAT HEADER N NAVBAR END */
+  
+  /* DROPDOWNN */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border: 1px solid #ddd;
+  }
+
+  
+
+  /*FORMULIRRR END */
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* DROPDOWNN END*/
+  /* hdh */
+  html {
+    scroll-behavior: smooth;
+  }
+  /* hdh end */
+
+
+  

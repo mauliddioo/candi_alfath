@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICLIKS.ID Pemesanan</title>
+    <link rel="stylesheet" href="FORM.css">
+
+</head>
+<body>
+    <header>
+        <section id="pesanSekarang">
+            <h2 class="judul">Pemesanan Tiket</h2>
+        
+            
+            <!--indikator error-->
+            <div id="errorMessage" style="color: red; display: none;"></div>
+          
+            <form id="bookingForm">
+              <label for="nama">Nama Lengkap:</label>
+              <input type="text" id="nama" name="nama" required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="nomorTelepon">Nomor Telepon:</label>
+              <input type="text" id="nomorTelepon" name="nomorTelepon" required>
+          
+              <label for="jumlahTiket">Jumlah Tiket:</label>
+              <input type="number" id="jumlahTiket" name="jumlahTiket" min="1" max="10" required>
+          
+              <button type="submit">Pesan Tiket</button>
+            </form>
+          </section>
+
+          <script src="TULONGGG.js"></script>
+          
+</body>
+</html>
